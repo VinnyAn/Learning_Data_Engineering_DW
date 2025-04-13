@@ -1,3 +1,11 @@
-Clientes:
+clientes:
   n: 500
   name: 'clientes.csv'
+
+produtos:
+  lista: ['Arroz', 'Feijão', 'Macarrão', 'Batata', 'Banana']
+  name: produtos.csv
+
+vendas:
+  n: 1000
+  name: vendas.csv

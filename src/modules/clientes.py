@@ -3,10 +3,10 @@ import random
 from faker import Faker
 from utils.loader import load_config
 
-class Cliente:
+class Clientes:
     def __init__(self, config):
         self.config = config
-        self.n = self.config['Clientes']['n']
+        self.n = self.config['clientes']['n']
 
     def gerar_df(self):
         fake = Faker()
